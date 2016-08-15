@@ -3,7 +3,7 @@
 
 # Inherit from chriswessels/meteor-tupperware image
 #FROM fangjimjim/meteor-tupperware
-FROM fangjimjim/meteor-tupperware:dev
+FROM fangjimjim/meteor-tupperware
 
 # The maintainer of your app image
 MAINTAINER fjj <fang_jimjim@163.com>
