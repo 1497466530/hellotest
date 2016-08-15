@@ -1,0 +1,93 @@
+{
+  "public": {
+    "build": {
+      "version": "2.8.5",
+      "buildAt": "2016-08-05",
+      "svnVersion": "761"
+     },
+    "allTargets": [
+      "public",
+      "student",
+      "promoter"
+    ],
+    "dress": {
+      "colorCodeLength": 2,
+      "sizeCodeLength": 3,
+      "noCodeLength": 3,
+      "photoSuffix": ".jpg"
+    },
+    "Clothes": {
+      "priceRatio": 1.5
+    },
+    "dressURL": "http://img.duolayimeng.com/original/",
+    "weiUIURL": "http://img.duolayimeng.com/weiUI/",
+    "publicURL": "http://img.duolayimeng.com/public/image/",
+    "dressPFX_mobile": "@!399h",
+    "dressPFX_pc":"@!1200h",
+    "leaseLimit": {
+      "membership": 3,
+      "lease_only": 20
+    },
+    "purchases":{
+      "purchasesURL":"http://img.duolayimeng.com/new/",
+      "choiceNum":10,
+      "master":5,
+      "limitNum":10
+    },
+    "oss": {
+      "ddpAddress": "http://es.duolayimeng.com:9999",
+      "uploadAddress": "http://duola-res.oss-cn-beijing.aliyuncs.com/",
+      "ossPicUrl": "http://duola-res.img-cn-beijing.aliyuncs.com/"
+    },
+    "locaArea": {
+      "ddpAddress": "http://we.duolayimeng.com:9998"
+    },
+    "newCome": {
+      "preDays": 2
+    },
+    "cron": {
+      "ddpAddress": "http://we.duolayimeng.com:9988"
+    },
+    "activity": {
+      "availableActivities": [
+        {
+          "label": "1元体验5天接99元1月活动(仅限成都地区)",
+          "value": "1Yuan5Days-99Yuan1Month",
+          "checked": "checked"
+        },
+        {
+          "label": "99元1月活动",
+          "value": "99Yuan1Month"
+        }
+      ]
+    },
+    "upload": {
+      "bucket": "duola-img",
+      "testBucket": "duola-test",
+      "region": "oss-cn-beijing",
+      "name": "DorasDream",
+      "token": "hqKhKWE4dZCCwzFTymA8o2cuFT8akp87",
+      "dir": {
+        "test": "test/",
+        "provider": "provider/",
+        "clothesTemplate": "template/"
+      }
+    }
+  },
+  "sms": {
+    "server": "http://222.73.117.158:80/msg/HttpBatchSendSM",
+    "user": "Bk88888",
+    "password": "Tch123456"
+  },
+  "pingpp": {
+    "appID":    "app_vnzT4SHGSeb1r1OK",
+    "apiKey":   "sk_live_8KSOMvrkEVoT1RnbewiRdM4Z",
+    "apiTestKey": "sk_test_P4mXrDKuHiHSO0O8KCbH80KS"
+  },
+  "locaArea": {
+    "start": "1-A-01-1-001",
+    "end": "1-N-09-2-199",
+    "sizeLength": 100,
+    "twoLocationSeason": "冬"
+  }
+}
