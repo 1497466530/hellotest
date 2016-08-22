@@ -2,8 +2,8 @@
   "public": {
     "build": {
       "version": "2.8.5",
-      "buildAt": "2016- 08 -05",
-      "svnVersion": "761"
+      "buildAt": "2016-08-05",
+      "svnVersion": "hello world"
      },
     "allTargets": [
       "public",
