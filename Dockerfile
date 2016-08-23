@@ -2,8 +2,9 @@
 # https://github.com/chriswessels/meteor-tupperware
 
 # Inherit from chriswessels/meteor-tupperware image
-#FROM fangjimjim/meteor-tupperware
-FROM fangjimjim/meteor-tupperware
+FROM fangjimjim/meteor-tupperware:ali
+
+ADD sources.list /etc/apt/sources.list
 
 # The maintainer of your app image
 MAINTAINER fjj <fang_jimjim@163.com>

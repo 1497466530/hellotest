@@ -1,5 +1,6 @@
 {
   "dependencies": {
+	"npmTaobao": true,
 	"nodeVersion": "4.4.7",
     "phantomJs": false,
     "imageMagick": false
