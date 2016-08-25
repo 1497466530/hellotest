@@ -35,18 +35,11 @@
       "limitNum":10
     },
     "oss": {
-      "ddpAddress": "http://es.duolayimeng.com:9999",
       "uploadAddress": "http://duola-res.oss-cn-beijing.aliyuncs.com/",
       "ossPicUrl": "http://duola-res.img-cn-beijing.aliyuncs.com/"
     },
-    "locaArea": {
-      "ddpAddress": "http://we.duolayimeng.com:9998"
-    },
     "newCome": {
       "preDays": 2
-    },
-    "cron": {
-      "ddpAddress": "http://we.duolayimeng.com:9988"
     },
     "activity": {
       "availableActivities": [
@@ -60,29 +53,7 @@
           "value": "99Yuan1Month"
         }
       ]
-    },
-    "upload": {
-      "bucket": "duola-img",
-      "testBucket": "duola-test",
-      "region": "oss-cn-beijing",
-      "name": "DorasDream",
-      "token": "hqKhKWE4dZCCwzFTymA8o2cuFT8akp87",
-      "dir": {
-        "test": "test/",
-        "provider": "provider/",
-        "clothesTemplate": "template/"
-      }
     }
-  },
-  "sms": {
-    "server": "http://222.73.117.158:80/msg/HttpBatchSendSM",
-    "user": "Bk88888",
-    "password": "Tch123456"
-  },
-  "pingpp": {
-    "appID":    "app_vnzT4SHGSeb1r1OK",
-    "apiKey":   "sk_live_8KSOMvrkEVoT1RnbewiRdM4Z",
-    "apiTestKey": "sk_test_P4mXrDKuHiHSO0O8KCbH80KS"
   },
   "locaArea": {
     "start": "1-A-01-1-001",
